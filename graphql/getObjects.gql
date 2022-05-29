@@ -1,0 +1,15 @@
+{
+  getObjects(
+    bucket_slug: "capacitor-template-nuxt-production"
+    read_key: "Xyjlrefnietn7uAWOMWNCVNdAqiAV66PFKWR8pAacbTFW1ufgM"
+    input: { limit: 20, query: { type: "posts" } }
+  ) {
+    objects {
+      id
+      title
+      content
+      slug
+      metadata
+    }
+  }
+}
